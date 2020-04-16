@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC0C900824489023002B7812 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0C900724489023002B7812 /* AppDelegate.swift */; };
+		FC0C900A24489023002B7812 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0C900924489023002B7812 /* SceneDelegate.swift */; };
+		FC0C900C24489023002B7812 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0C900B24489023002B7812 /* ViewController.swift */; };
+		FC0C900F24489023002B7812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC0C900D24489023002B7812 /* Main.storyboard */; };
+		FC0C901224489023002B7812 /* StillWedding.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC0C901024489023002B7812 /* StillWedding.xcdatamodeld */; };
+		FC0C901424489028002B7812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC0C901324489028002B7812 /* Assets.xcassets */; };
+		FC0C901724489029002B7812 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC0C901524489029002B7812 /* LaunchScreen.storyboard */; };
+		FC0C902224489029002B7812 /* StillWeddingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0C902124489029002B7812 /* StillWeddingTests.swift */; };
+		FC0C902D24489029002B7812 /* StillWeddingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0C902C24489029002B7812 /* StillWeddingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC0C901E24489029002B7812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC0C8FFC24489023002B7812 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC0C900324489023002B7812;
+			remoteInfo = StillWedding;
+		};
+		FC0C902924489029002B7812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC0C8FFC24489023002B7812 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC0C900324489023002B7812;
+			remoteInfo = StillWedding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC0C900424489023002B7812 /* StillWedding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StillWedding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0C900724489023002B7812 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC0C900924489023002B7812 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC0C900B24489023002B7812 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC0C900E24489023002B7812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC0C901124489023002B7812 /* StillWedding.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StillWedding.xcdatamodel; sourceTree = "<group>"; };
+		FC0C901324489028002B7812 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC0C901624489029002B7812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC0C901824489029002B7812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC0C901D24489029002B7812 /* StillWeddingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StillWeddingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0C902124489029002B7812 /* StillWeddingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillWeddingTests.swift; sourceTree = "<group>"; };
+		FC0C902324489029002B7812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC0C902824489029002B7812 /* StillWeddingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StillWeddingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0C902C24489029002B7812 /* StillWeddingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillWeddingUITests.swift; sourceTree = "<group>"; };
+		FC0C902E24489029002B7812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC0C900124489023002B7812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0C901A24489029002B7812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0C902524489029002B7812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC0C8FFB24489023002B7812 = {
+			isa = PBXGroup;
+			children = (
+				FC0C900624489023002B7812 /* StillWedding */,
+				FC0C902024489029002B7812 /* StillWeddingTests */,
+				FC0C902B24489029002B7812 /* StillWeddingUITests */,
+				FC0C900524489023002B7812 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC0C900524489023002B7812 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC0C900424489023002B7812 /* StillWedding.app */,
+				FC0C901D24489029002B7812 /* StillWeddingTests.xctest */,
+				FC0C902824489029002B7812 /* StillWeddingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC0C900624489023002B7812 /* StillWedding */ = {
+			isa = PBXGroup;
+			children = (
+				FC0C900724489023002B7812 /* AppDelegate.swift */,
+				FC0C900924489023002B7812 /* SceneDelegate.swift */,
+				FC0C900B24489023002B7812 /* ViewController.swift */,
+				FC0C900D24489023002B7812 /* Main.storyboard */,
+				FC0C901324489028002B7812 /* Assets.xcassets */,
+				FC0C901524489029002B7812 /* LaunchScreen.storyboard */,
+				FC0C901824489029002B7812 /* Info.plist */,
+				FC0C901024489023002B7812 /* StillWedding.xcdatamodeld */,
+			);
+			path = StillWedding;
+			sourceTree = "<group>";
+		};
+		FC0C902024489029002B7812 /* StillWeddingTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC0C902124489029002B7812 /* StillWeddingTests.swift */,
+				FC0C902324489029002B7812 /* Info.plist */,
+			);
+			path = StillWeddingTests;
+			sourceTree = "<group>";
+		};
+		FC0C902B24489029002B7812 /* StillWeddingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC0C902C24489029002B7812 /* StillWeddingUITests.swift */,
+				FC0C902E24489029002B7812 /* Info.plist */,
+			);
+			path = StillWeddingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC0C900324489023002B7812 /* StillWedding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC0C903124489029002B7812 /* Build configuration list for PBXNativeTarget "StillWedding" */;
+			buildPhases = (
+				FC0C900024489023002B7812 /* Sources */,
+				FC0C900124489023002B7812 /* Frameworks */,
+				FC0C900224489023002B7812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StillWedding;
+			productName = StillWedding;
+			productReference = FC0C900424489023002B7812 /* StillWedding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC0C901C24489029002B7812 /* StillWeddingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC0C903424489029002B7812 /* Build configuration list for PBXNativeTarget "StillWeddingTests" */;
+			buildPhases = (
+				FC0C901924489029002B7812 /* Sources */,
+				FC0C901A24489029002B7812 /* Frameworks */,
+				FC0C901B24489029002B7812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC0C901F24489029002B7812 /* PBXTargetDependency */,
+			);
+			name = StillWeddingTests;
+			productName = StillWeddingTests;
+			productReference = FC0C901D24489029002B7812 /* StillWeddingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC0C902724489029002B7812 /* StillWeddingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC0C903724489029002B7812 /* Build configuration list for PBXNativeTarget "StillWeddingUITests" */;
+			buildPhases = (
+				FC0C902424489029002B7812 /* Sources */,
+				FC0C902524489029002B7812 /* Frameworks */,
+				FC0C902624489029002B7812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC0C902A24489029002B7812 /* PBXTargetDependency */,
+			);
+			name = StillWeddingUITests;
+			productName = StillWeddingUITests;
+			productReference = FC0C902824489029002B7812 /* StillWeddingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC0C8FFC24489023002B7812 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = startup;
+				TargetAttributes = {
+					FC0C900324489023002B7812 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					FC0C901C24489029002B7812 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = FC0C900324489023002B7812;
+					};
+					FC0C902724489029002B7812 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = FC0C900324489023002B7812;
+					};
+				};
+			};
+			buildConfigurationList = FC0C8FFF24489023002B7812 /* Build configuration list for PBXProject "StillWedding" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC0C8FFB24489023002B7812;
+			productRefGroup = FC0C900524489023002B7812 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC0C900324489023002B7812 /* StillWedding */,
+				FC0C901C24489029002B7812 /* StillWeddingTests */,
+				FC0C902724489029002B7812 /* StillWeddingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC0C900224489023002B7812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0C901724489029002B7812 /* LaunchScreen.storyboard in Resources */,
+				FC0C901424489028002B7812 /* Assets.xcassets in Resources */,
+				FC0C900F24489023002B7812 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0C901B24489029002B7812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0C902624489029002B7812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC0C900024489023002B7812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0C900C24489023002B7812 /* ViewController.swift in Sources */,
+				FC0C900824489023002B7812 /* AppDelegate.swift in Sources */,
+				FC0C900A24489023002B7812 /* SceneDelegate.swift in Sources */,
+				FC0C901224489023002B7812 /* StillWedding.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0C901924489029002B7812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0C902224489029002B7812 /* StillWeddingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0C902424489029002B7812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0C902D24489029002B7812 /* StillWeddingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC0C901F24489029002B7812 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC0C900324489023002B7812 /* StillWedding */;
+			targetProxy = FC0C901E24489029002B7812 /* PBXContainerItemProxy */;
+		};
+		FC0C902A24489029002B7812 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC0C900324489023002B7812 /* StillWedding */;
+			targetProxy = FC0C902924489029002B7812 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC0C900D24489023002B7812 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC0C900E24489023002B7812 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC0C901524489029002B7812 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC0C901624489029002B7812 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC0C902F24489029002B7812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC0C903024489029002B7812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC0C903224489029002B7812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7923CP4VM6;
+				INFOPLIST_FILE = StillWedding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bsd.startup.StillWedding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC0C903324489029002B7812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7923CP4VM6;
+				INFOPLIST_FILE = StillWedding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bsd.startup.StillWedding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC0C903524489029002B7812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7923CP4VM6;
+				INFOPLIST_FILE = StillWeddingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bsd.startup.StillWeddingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StillWedding.app/StillWedding";
+			};
+			name = Debug;
+		};
+		FC0C903624489029002B7812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7923CP4VM6;
+				INFOPLIST_FILE = StillWeddingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bsd.startup.StillWeddingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StillWedding.app/StillWedding";
+			};
+			name = Release;
+		};
+		FC0C903824489029002B7812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7923CP4VM6;
+				INFOPLIST_FILE = StillWeddingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bsd.startup.StillWeddingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StillWedding;
+			};
+			name = Debug;
+		};
+		FC0C903924489029002B7812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7923CP4VM6;
+				INFOPLIST_FILE = StillWeddingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bsd.startup.StillWeddingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StillWedding;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC0C8FFF24489023002B7812 /* Build configuration list for PBXProject "StillWedding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0C902F24489029002B7812 /* Debug */,
+				FC0C903024489029002B7812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC0C903124489029002B7812 /* Build configuration list for PBXNativeTarget "StillWedding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0C903224489029002B7812 /* Debug */,
+				FC0C903324489029002B7812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC0C903424489029002B7812 /* Build configuration list for PBXNativeTarget "StillWeddingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0C903524489029002B7812 /* Debug */,
+				FC0C903624489029002B7812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC0C903724489029002B7812 /* Build configuration list for PBXNativeTarget "StillWeddingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0C903824489029002B7812 /* Debug */,
+				FC0C903924489029002B7812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC0C901024489023002B7812 /* StillWedding.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC0C901124489023002B7812 /* StillWedding.xcdatamodel */,
+			);
+			currentVersion = FC0C901124489023002B7812 /* StillWedding.xcdatamodel */;
+			path = StillWedding.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FC0C8FFC24489023002B7812 /* Project object */;
+}
